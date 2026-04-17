@@ -10,7 +10,7 @@ This is a demo Python project designed to showcase a CI/CD pipeline for Python p
 ## Getting Started
 
 It's recommended to create a virtualenv first:
-
+ 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
