@@ -27,6 +27,7 @@ blocks:
       jobs:
         - name: ✨ Lint and Format
           commands:
+            - pip install --cache-dir .pip_cache -r requirements.txt
             - make lint
   - name: "\U0001F9EA Test Suite"
     dependencies:
@@ -36,4 +37,5 @@ blocks:
       jobs:
         - name: "\U0001F7E2 Pytest"
           commands:
+            - pip install --cache-dir .pip_cache -r requirements.txt
             - make test
